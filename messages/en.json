@@ -1,3 +1,8 @@
 {
-  "app-name": "PhraseBook"
+  "app-name": "Idoms",
+  "book-title": "Idoms Book",
+  "next": "Next",
+  "page": "Page",
+  "previous": "Previous",
+  "select-lang": "Select Language : "
 }

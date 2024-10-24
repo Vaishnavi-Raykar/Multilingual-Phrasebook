@@ -24,7 +24,7 @@
     "react-toastify": "^10.0.6"
   },
   "devDependencies": {
-    "@tolgee/cli": "^2.3.0",
+    "@tolgee/cli": "^2.3.1",
     "@types/node": "^20",
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",
