@@ -48,17 +48,17 @@ export default function Book() {
     if (currentPage > 0) {
       setIsTransitioning(true);
       setTimeout(() => {
-        setCurrentPage(currentPage - 1);
+        setCurrentPage(currentPage - 2);
         setIsTransitioning(false);
       }, 300);
     }
   };
 
   const handleNextPage = () => {
-    if (currentPage < resultPhrases.length - 1) {
+    if (currentPage < resultPhrases.length - 2) {
       setIsTransitioning(true);
       setTimeout(() => {
-        setCurrentPage(currentPage + 1);
+        setCurrentPage(currentPage + 2);
         setIsTransitioning(false);
       }, 300);
     }
